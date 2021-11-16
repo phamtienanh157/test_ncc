@@ -1,0 +1,23 @@
+.container {
+  margin-left: 150px;
+  padding: 20px 100px;
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    img {
+      transform: scale(0.8);
+    }
+  }
+  .header {
+    text-align: center;
+    background: #efefef;
+    padding: 15px 40px;
+    margin-top: 20px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,24 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  background-color: #191718;
+  &-item {
+    height: 44px;
+    width: 100%;
+    background-color: #191718;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border-bottom: 1px solid #828282;
+    span {
+      margin-left: 12px;
+    }
+  }
+  &-item:hover {
+    background-color: #5c5c5c;
+  }
+}
